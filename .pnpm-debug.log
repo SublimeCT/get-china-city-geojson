@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_PACKAGE_JSON_EXISTS",
+    "err": {
+      "name": "pnpm",
+      "message": "package.json already exists",
+      "code": "ERR_PNPM_PACKAGE_JSON_EXISTS",
+      "stack": "pnpm: package.json already exists\n    at Object.handler [as init] (/Users/kuidi/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:180191:15)\n    at /Users/kuidi/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:182699:51\n    at async run (/Users/kuidi/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:182675:34)\n    at async runPnpm (/Users/kuidi/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:182893:5)\n    at async /Users/kuidi/.config/yarn/global/node_modules/pnpm/dist/pnpm.cjs:182885:7"
+    }
+  }
+}
