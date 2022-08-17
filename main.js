@@ -2,7 +2,7 @@ const { writeFileSync } = require('fs')
 const axios = require('axios')
 const path = require('path')
 
-const PATH_CHINA = path.join(__dirname, './$adcode.json')
+const PATH_CHINA = path.join(__dirname, './$adcode_full.json')
 const PATH_PROVINCE_DIR = path.join(__dirname, './provinces')
 const DOWNLOAD_URL = 'https://geo.datav.aliyun.com/areas_v3/bound/$adcode_full.json'
 const PATH_CITY_FILE = PATH_PROVINCE_DIR + '/$adcode_full.json'
