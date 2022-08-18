@@ -10,9 +10,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node-fetch": "^2.6.2"
+    "@types/node-fetch": "^2.6.2",
+    "cz-conventional-changelog": "^3.3.0"
   },
   "dependencies": {
     "axios": "^0.27.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
